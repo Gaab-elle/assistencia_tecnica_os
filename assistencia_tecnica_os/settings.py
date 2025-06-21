@@ -146,10 +146,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS (Cross-Origin Resource Sharing) Settings
 # Para permitir requisições de domínios específicos (seu frontend)
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173", # <<<<<< SEU ENDEREÇO DO FRONTEND AQUI
-    # Se você usar outro endereço (ex: 127.0.0.1:5173), adicione-o também
-    # "http://127.0.0.1:5173",
+    "http://localhost:5174",
 ]
-
-# Ou, para permitir TUDO (apenas para desenvolvimento, NUNCA em produção)
-# CORS_ALLOW_ALL_ORIGINS = True

@@ -5,33 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5542ebbd-9f9d-4347-b7c1-2d17861a4ed0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assistencia_tecnica_os.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_os/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_os/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ClienteLista.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/OS_PecaAddForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/OS_ServicoAddForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrdemServicoDetalhe.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrdemServicoForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrdemServicoLista.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PecaForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/OrdemServicoCreateView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/OrdemServicoDetalheView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/OrdemServicoEditView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/OrdensServicoView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PecaCreateView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/views/PecaListView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assistencia_tecnica_os/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/assistencia_tecnica_os/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,12 +26,25 @@
         <option value="Python Script" />
         <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gaab-elle&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/codedthemes/berry-free-vue-admin-template.git&quot;,
+    &quot;accountId&quot;: &quot;d1df2ced-bcbb-4b1d-a356-f198e7fdb562&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -57,30 +57,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Django Server.assistencia_tecnica_os.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2025.1.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django Server.assistencia_tecnica_os.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/asus/PycharmProjects/assistencia_tecnica_os",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2025.1.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asus\PycharmProjects\assistencia_tecnica_os\frontend\src\components\app-features" />
+      <recent name="C:\Users\asus\PycharmProjects\assistencia_tecnica_os\frontend\src\views\app-pages" />
       <recent name="C:\Users\asus\PycharmProjects\assistencia_tecnica_os\frontend\src\views" />
       <recent name="C:\Users\asus\PycharmProjects\assistencia_tecnica_os\assistencia_tecnica_os" />
       <recent name="C:\Users\asus\PycharmProjects\assistencia_tecnica_os\app_os" />
@@ -131,6 +135,12 @@
       <workItem from="1750142241885" duration="3849000" />
       <workItem from="1750146133700" duration="16663000" />
       <workItem from="1750183019957" duration="16388000" />
+      <workItem from="1750263638991" duration="6878000" />
+      <workItem from="1750352097889" duration="1028000" />
+      <workItem from="1750353155702" duration="2523000" />
+      <workItem from="1750355777273" duration="5655000" />
+      <workItem from="1750362172386" duration="2858000" />
+      <workItem from="1750458989315" duration="8309000" />
     </task>
     <servers />
   </component>
@@ -142,7 +152,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/src/components/OrdemServicoDetalhe.vue</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

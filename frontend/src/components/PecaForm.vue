@@ -1,4 +1,4 @@
-<!-- assistencia_tecnica_os/frontend/src/components/PecaForm.vue -->
+<!-- assistencia_tecnica_os/frontend/src/components/app-features/PecaForm.vue -->
 <script setup>
 import { ref, onMounted, watch } from 'vue';
 import axios from 'axios';

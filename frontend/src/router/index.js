@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import OrdensServicoView from '../views/OrdensServicoView.vue'
-import OrdemServicoDetalheView from '../views/OrdemServicoDetalheView.vue'
-import OrdemServicoCreateView from '../views/OrdemServicoCreateView.vue'
-import OrdemServicoEditView from '../views/OrdemServicoEditView.vue'
-import PecaListView from '../views/PecaListView.vue'
-import PecaCreateView from '../views/PecaCreateView.vue' // Importa a nova View de Criação de Peças
+// IMPORTANTE: O caminho para suas views aqui deve ser relativo à pasta 'router'
+// Se suas views estão em src/views/, então o caminho de router/index.js é ../views/
+import HomeView from '../views/HomeView.vue' // Corrigido o caminho
+import OrdensServicoView from '../views/OrdensServicoView.vue' // Corrigido o caminho
+import OrdemServicoDetalheView from '../views/OrdemServicoDetalheView.vue' // Corrigido o caminho
+import OrdemServicoCreateView from '../views/OrdemServicoCreateView.vue' // Corrigido o caminho
+import OrdemServicoEditView from '../views/OrdemServicoEditView.vue' // Corrigido o caminho
+import PecaListView from '../views/PecaListView.vue' // Corrigido o caminho
+import PecaCreateView from '../views/PecaCreateView.vue' // Corrigido o caminho
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,34 +22,33 @@ const router = createRouter({
       name: 'ordens-servico',
       component: OrdensServicoView
     },
-    { // Rota para criar nova OS
+    {
       path: '/ordens-servico/abrir',
       name: 'os-abrir',
       component: OrdemServicoCreateView
     },
-    { // Rota para editar OS (com ID) - DEVE VIR ANTES da rota de detalhes da OS
+    {
       path: '/ordens-servico/:id/editar',
       name: 'os-editar',
       component: OrdemServicoEditView,
-      props: true // Passa o parâmetro 'id' da rota como prop para a view
+      props: true
     },
-    { // Rota para detalhes da OS (com ID)
+    {
       path: '/ordens-servico/:id',
       name: 'os-detalhe',
       component: OrdemServicoDetalheView,
       props: true
     },
-    { // Rota para a Listagem de Peças
+    {
       path: '/pecas',
       name: 'pecas',
       component: PecaListView
     },
-    { // Rota para criar nova Peça
+    {
       path: '/pecas/criar',
       name: 'peca-criar',
       component: PecaCreateView
     }
-    // Você adicionará outras rotas aqui conforme criar novos módulos
   ]
 })
 

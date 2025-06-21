@@ -26,21 +26,33 @@ async function fetchPecas() {
 onMounted(() => {
   fetchPecas();
 });
+
+// Ações para o futuro: remover peça
+async function removerPeca(pecaId) {
+  if (!confirm('Tem certeza que deseja remover esta peça do estoque?')) {
+    return;
+  }
+  // Implementar lógica de remoção aqui
+  // await axios.delete(`http://127.0.0.1:8000/api/pecas/${pecaId}/`);
+  // alert('Peça removida com sucesso!');
+  // fetchPecas(); // Recarregar a lista
+  alert('Funcionalidade de remover peça ainda não implementada.');
+}
 </script>
 
 <template>
   <v-container>
     <h1 class="text-h4 mb-4">Gestão de Estoque de Peças</h1>
-    <p class="text-subtitle-1 mb-6">Aqui você pode visualizar e gerenciar suas peças em estoque.</p>
+    <p class="text-subtitle-1 mb-6">Aqui pode visualizar e gerenciar as suas peças em estoque.</p>
 
-    <!-- Botão para adicionar nova peça (futuro) - estilizado com Vuetify -->
+    <!-- Botão para adicionar nova peça - estilizado com Vuetify -->
     <v-btn color="primary" :to="{ name: 'peca-criar' }" class="mb-6">
       <v-icon left>mdi-plus</v-icon> Adicionar Nova Peça
     </v-btn>
 
     <div v-if="carregando" class="text-center pa-5">
       <v-progress-circular indeterminate color="primary"></v-progress-circular>
-      <p class="mt-3">Carregando peças...</p>
+      <p class="mt-3">A carregar peças...</p>
     </div>
     <v-alert v-else-if="erro" type="error" outlined class="mb-4">{{ erro }}</v-alert>
 
@@ -57,8 +69,8 @@ onMounted(() => {
             <p v-if="peca.descricao"><strong>Descrição:</strong> {{ peca.descricao }}</p>
           </v-card-text>
           <v-card-actions>
-            <!-- Futuramente: Botões de Editar/Remover -->
             <v-spacer></v-spacer>
+            <!-- Futuramente: Botões de Editar/Remover -->
             <v-btn color="secondary" size="small" :to="{ name: 'peca-editar', params: { id: peca.id } }">
               <v-icon left>mdi-pencil</v-icon> Editar
             </v-btn>
@@ -74,6 +86,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/* Nenhum estilo scoped específico é estritamente necessário aqui, o Vuetify trata da maioria. */
-/* Você pode adicionar estilos extras se quiser mais personalização além do Vuetify. */
+/* Nenhum estilo scoped específico é necessário aqui, o Vuetify cuida da maioria. */
 </style>

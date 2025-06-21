@@ -2,7 +2,7 @@
 import { ref, onMounted, watch } from 'vue';
 import { useRoute, RouterLink } from 'vue-router';
 import axios from 'axios';
-import OS_PecaAddForm from '@/components/OS_PecaAddForm.vue';   // Importa o componente do formulário de adição de peças
+import OS_PecaAddForm from './OS_PecaAddForm.vue';   // Importa o componente do formulário de adição de peças
 import OS_ServicoAddForm from '@/components/OS_ServicoAddForm.vue'; // Importa o componente do formulário de adição de serviços
 
 const route = useRoute(); // Obtém o objeto de rota atual

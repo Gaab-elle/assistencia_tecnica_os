@@ -1,5 +1,5 @@
 <script setup>
-import OrdemServicoForm from '@/components/OrdemServicoForm.vue';
+import OrdemServicoForm from '@/components//OrdemServicoForm.vue';
 </script>
 
 <template>
